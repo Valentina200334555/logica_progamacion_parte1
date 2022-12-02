@@ -1,0 +1,25 @@
+<meta charset="UTF-8"> <!--Evita errores de escritura al utilizar otro navegador-->
+<script>
+	document.write("<h1>Sea bienvenido</h1>")
+	document.write("La suma de las edades de Juan, Pedro y Carlos es...");
+	document.write("<br>")
+	document.write((20+25+15));
+	document.write("<br>")
+	document.write("<br>")
+   document.write("Juan nacio en el año...");
+	document.write("<br>")
+	document.write((2020-20));
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Pedro nacio en el año...");
+	document.write("<br>")
+	document.write((2020-25));
+	document.write("<br>")
+	document.write("<br>")
+    document.write("Carlos nacio en el año...");
+	document.write("<br>")
+	document.write((2020-15));
+</script>
+<!--document.write, permite usar codigo html dentro de JavaScript.
+El edad sin las comillas ya es tomado como un numero, antes con las comillas el programa lo considereba un dato tipo string.
+Concatenar valores: juntar dos numeros declarados tipo string donde su resultado es que se juntan mas no se saca un resultado operativo("23"+ "67")-->
